@@ -23,3 +23,30 @@ spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialec
 spring.sql.init.mode = always
 spring.sql.init.platform = postgres
 spring.jpa.defer-datasource-initialization = true
+
+
+
+
+
+
+#for localhost use db
+#spring.datasource.url= jdbc:postgresql://localhost:5432/practiceDB
+#spring.datasource.username=postgres
+#spring.datasource.password=Password@123
+
+# or
+
+#for use docker config postgres
+#spring.datasource.url= jdbc:postgresql://postgres:5432/ideaMode
+#spring.datasource.username=shubham
+#spring.datasource.password=1234
+#
+#
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.properties.hibernate.format_sql=true
+#spring.jpa.show-sql=true
+#
+#spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+#spring.sql.init.mode = always
+#spring.sql.init.platform = postgres
+#spring.jpa.defer-datasource-initialization = true
