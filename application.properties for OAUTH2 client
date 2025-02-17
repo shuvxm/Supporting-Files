@@ -1,0 +1,11 @@
+#spring.data.mongodb.uri = mongodb://localhost:27017/authdb
+
+# oauth2client for google
+#spring.security.oauth2.client.registration.google.client-id=xxxxxxxxxxxxxxxxxxxx
+#spring.security.oauth2.client.registration.google.client-secret=xxxxx
+##spring.security.oauth2.client.registration.google.scope=profile,email
+#
+## oauth2client for Github
+#spring.security.oauth2.client.registration.github.client-id=xxxxxxxxxx
+#spring.security.oauth2.client.registration.github.client-secret=8xxxxxxxx
+#spring.security.oauth2.client.registration.github.scope=user:email
